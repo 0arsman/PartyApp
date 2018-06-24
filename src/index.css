@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  outline: none;
+}
+.header{
+  background-color:  rgb(45, 187, 187); 
+  border-bottom: 3px solid rgb(26, 109, 109);
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 2;
+  text-align: center;
+}
+
+.header a{
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 35px 40px;
+}
+
+.header a:hover{
+  color: rgb(50, 110, 110);
+}
+
+.loginpage{
+  background-color: rgb(147, 255, 255); 
+  height: 87vh;
+  position: relative;
+} 
+
+.loginform{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.loginform input{
+  display: block;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+  margin-top: 40px;
+  outline: none;
+}
+h1{
+  color: rgb(0, 199, 199);
+  margin-top:  60px;
+}
+.submit{
+  border: none;
+  background-color: rgb(0, 199, 199);
+  margin: 50px 0 100px 0;
+  font-size: 30px;
+  color: white;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+.userpage{
+  height: 89vh;
+  position: relative;
+}
+.page{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  border-radius: 10px;
+  background-color: white;
+}
+.userpage p{
+  color: rgb(145, 145, 145);
+
+}
+.userpage h1{
+  margin-bottom: 10px;
+}
+.userpage h2{
+  color:  rgb(0, 199, 199);
+  padding: 30px;
+  border-top: 1px solid black;
+  margin-top: 30px;
+}
+.userpage button{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+.discription{
+  color: rgb(82, 78, 78);
+  font-size: 30px;
+}
+.uspage{
+  position: absolute;
+  top: 0;
+  left: 25%;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  border-radius: 10px;
+  background-color: white;
+}
+.category{
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+  background-color: pink;
+  margin: 30px 10px 10px 10px;
+}
+.category h1{
+  margin-top: 0px;
+}
+.category p {
+  font-size: 12px;
+  color: gray;
+  margin: 5px 0;
+}
+.categories{
+  text-align: center;
+}
+
+.friend{
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+  background-color: pink;
+  margin: 30px 10px 10px 10px;
+}
+.friend h1{
+  margin-top: 0px;
+}
+.friend p {
+  font-size: 12px;
+  color: gray;
+  margin: 5px 0;
+}
+.friend button{
+  border: none;
+  background-color: rgb(61, 66, 66);
+  margin: 3px 5px;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.friends{
+  text-align: center;
+}
+.categorypage{
+  text-align: center;
+}
+.party{
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+  background-color: pink;
+  margin: 30px 10px 10px 10px;
+}
+.party h1{
+  margin-top: 0px;
+}
+.party p {
+  font-size: 12px;
+  color: gray;
+  margin: 5px 0;
+}
+.categorypage button{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.category span{
+  color: rgb(0, 172, 172);
+}
+.page span{
+  font-size: 25px;
+  text-align: left;
+  display: block;
+  margin: 15px;
+  color: rgb(0, 172, 172);
+
+}
